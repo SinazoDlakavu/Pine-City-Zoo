@@ -5,7 +5,7 @@ body{
     font-family: Helvetica;
 }
 
-/* HEADER */
+/* ////////////////////////////////////HEADER */
 #header{
     /* This will freeze the pane */
     position: fixed; 
@@ -35,7 +35,7 @@ body{
     padding: 15px;
 }
 
-/* TOP TABS */
+/* ////////////////////////////////////////////TOP TABS */
 #tabs-top{
     position: fixed;
     /* Because the height of the header is 80px, for the top-tabs to be visible, they need to start at 80px */
@@ -73,7 +73,7 @@ body{
     margin-top:120px;
 }
 
-/* BOTTOM TABS*/
+/* //////////////////////////////////////////////////BOTTOM TABS*/
 
 #tabs-bottom{
     position: fixed;
@@ -100,7 +100,7 @@ body{
     padding-top:12px;
 }
 
-/* MAIN */
+/* ////////////////////////////////MAIN */
 
 #main{
    /* so that it doesnt appear below the header and the top tabs */
@@ -111,6 +111,27 @@ body{
 }
 
 #content{
+    /* Just to make it look neater */
     padding-top:1px;
     padding-bottom: 50px;
+}
+
+
+/*/////////////////////////////////////////////// INFO-BOX */
+/* any hyperlink with the class name 'info box' will have this style */
+a.info-box{
+    text-decoration: none;
+    /* use an rgb colour because it will be a transparent the last part means it is 80% opaque */
+    background: rgb(255,255,255, .8);
+    /* it wont go end to end some spaces on left & right */
+    width: 90%;
+    height: 90px;
+    display: block;
+    /* to be centralised to the screen */
+    margin: auto;
+    /* spaces in between the boxes */
+    margin-top: 12px;
+    /* padding all around */
+    padding: 1px;
+
 }
