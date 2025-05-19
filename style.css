@@ -5,6 +5,7 @@ body{
     font-family: Helvetica;
 }
 
+/* HEADER */
 #header{
     /* This will freeze the pane */
     position: fixed; 
@@ -32,4 +33,35 @@ body{
     height:70%;
     /* To leave some space at the top to centrallise the image vertically */
     padding: 15px;
+}
+
+/* TOP TABS */
+#tabs-top{
+    position: fixed;
+    /* Because the height of the header is 80px, for the top-tabs to be visible, they need to start at 80px */
+    top: 80px;
+    left: 0;
+
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color: darkgreen;
+}
+
+/* hyperlinks inside the top tabs */
+#tabs-top a{
+    float: left;
+    /* Will allow to give the hyperlinks a height and a width */
+    display: block;
+    /* One third of top tab */
+    width: 33%;
+    /* 5px short of the total height of the tab bar */
+    height: 35%;
+
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    /* the text within the hyperlink button to be vertically aligned */
+    padding-top: 12px;
 }
