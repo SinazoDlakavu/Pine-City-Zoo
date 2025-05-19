@@ -98,7 +98,19 @@ body{
     text-align: center;
     text-decoration: none;
     padding-top:12px;
-    
+}
 
+/* MAIN */
 
+#main{
+   /* so that it doesnt appear below the header and the top tabs */
+    margin-top:119px;
+    background: url('images/map-blur.png');
+    /* The image will keep repeating itself vertically */
+    background-repeat: repeat-y;
+}
+
+#content{
+    padding-top:1px;
+    padding-bottom: 50px;
 }
