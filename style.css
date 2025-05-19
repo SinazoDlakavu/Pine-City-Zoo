@@ -1,0 +1,35 @@
+ /* The body tag changes the entire page */
+body{
+       /* When using 0 there is no need to add px */
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+
+/* The header changes the top of the webpage. # is because header is not a built-in (it is a created id) tag */
+#header{
+    /* This will freeze the pane */
+    position: fixed; 
+    /* This fixes it at the very top left of the screen */
+    top: 0px; 
+    left: 0px;
+    /* The header will be the topmost and overlay itself above all the other elements, closer to user */
+    z-index: 500;
+    /* It will take up the width of the screen */
+    width: 100%;
+    height: 80px;
+    
+    background-image: url('images/wood-bg.png');
+    /* This will repeat the image horizontally until the full width has been achieved */
+    background-repeat: repeat-x;
+}
+
+#header img{
+    /* Adjust width and height of image */
+    display: block;
+    /* Centralize and object, centralised within its parent which is the header */
+    margin: auto;
+
+    height:70%;
+    padding: 15px;
+}
