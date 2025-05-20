@@ -186,6 +186,28 @@ a.info-box{
     text-align: center;
 }
 
+/* ==============================================WEATHER=================================== */
 
+img.info-box-weather-icon{
+    height: 30px;
+    /* there might be a class between this lines code and line 182 (width: 100%;) so we saying please override */
+    width: 30px !important;
+    margin: 10px;
+    float: left;
+}
 
+h1.info-box-weather-icon{
+    font-size: 65px;
+    font-weight: 200;
+    padding: 0;
+    margin: 0;
+}
 
+/* no need to put # or dot before because table is a built in tag */
+table{
+    width: 100%;
+}
+
+td{
+    border-top:1px solid #131313;
+}
