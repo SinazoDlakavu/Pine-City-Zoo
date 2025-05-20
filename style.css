@@ -70,7 +70,7 @@ body{
 
 #main-home{
     /* height of the header (80px) + tab top (40px) */
-    margin-top:120px;
+    margin-top: 120px;
 }
 
 /* //////////////////////////////////////////////////BOTTOM TABS*/
@@ -97,7 +97,7 @@ body{
     color: #ffffff;
     text-align: center;
     text-decoration: none;
-    padding: top 12px;
+    padding-top: 12px;
 }
 
 /* ////////////////////////////////MAIN */
