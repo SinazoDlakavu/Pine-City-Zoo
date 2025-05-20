@@ -97,7 +97,7 @@ body{
     color: #ffffff;
     text-align: center;
     text-decoration: none;
-    padding-top:12px;
+    padding: top 12px;
 }
 
 /* ////////////////////////////////MAIN */
@@ -185,5 +185,7 @@ a.info-box{
 #info-box-full h3{
     text-align: center;
 }
+
+
 
 
